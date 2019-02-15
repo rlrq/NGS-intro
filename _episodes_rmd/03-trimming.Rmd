@@ -130,7 +130,7 @@ discard any reads that do not have at least 20 bases remaining after
 this trimming step. This command will take a few minutes to run.
 
 ```{bash, eval=FALSE}
-$ trimmomatic PE SRR2589044_1.fastq.gz SRR2589044_2.fastq.gz \
+$ TrimmomaticPE SRR2589044_1.fastq.gz SRR2589044_2.fastq.gz \
                 SRR2589044_1.trim.fastq.gz SRR2589044_1un.trim.fastq.gz \
                 SRR2589044_2.trim.fastq.gz SRR2589044_2un.trim.fastq.gz \
                 SLIDINGWINDOW:4:20 MINLEN:25 ILLUMINACLIP:NexteraPE-PE.fa:2:40:15 
